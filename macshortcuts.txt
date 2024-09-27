@@ -1,0 +1,36 @@
+Terminal Shortcuts:
+
+Basic Navigation Shortcuts
+Ctrl + A: Move the cursor to the beginning of the line.
+Ctrl + E: Move the cursor to the end of the line.
+Option + right arrow: Move the cursor forward one word.
+Option + left arrow: Move the cursor backward one word.
+Up Arrow: Go to the previous command in history.
+Down Arrow: Go to the next command in history.
+
+Editing Shortcuts
+Ctrl + K: Delete everything from the cursor to the end of the line.
+Ctrl + U: Delete everything from the cursor to the beginning of the line.
+Ctrl + W: Delete the word before the cursor.
+Option + D: Delete the word after the cursor.
+Ctrl + T: Swap the character before the cursor with the character at the cursor.
+Ctrl + Y: Paste the last deleted text.
+
+Searching
+Ctrl + R: Reverse search through command history (type to search).
+Ctrl + S: Forward search through command history (may need to enable flow control).
+Ctrl + G: Exit from search mode.
+
+Process Management
+Ctrl + C: Terminate the current running command.
+Ctrl + Z: Suspend the current command (can be resumed with fg).
+Ctrl + D: Log out of the current shell (exit).
+
+Miscellaneous Shortcuts
+Tab: Auto-complete files and commands.
+Cmd + K: Clear the terminal screen.
+Cmd + V: Paste text into the terminal.
+Option + .: Insert the last argument of the previous command.
+
+Customization Shortcuts
+Ctrl + X followed by Ctrl + E: Open the current command line in your default text editor (like nano or vi).
